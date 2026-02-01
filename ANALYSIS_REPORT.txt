@@ -1,0 +1,48 @@
+🌾 CROP RECOMMENDATION SYSTEM - ANALYSIS REPORT
+============================================================
+
+DATASET OVERVIEW:
+• Total Samples: 500
+• Crop Types: 5
+• Features: 10
+• Training Samples: 400
+• Test Samples: 100
+
+CROP DISTRIBUTION:
+• Wheat: 100 samples (20.0%)
+• Rice: 100 samples (20.0%)
+• Corn: 100 samples (20.0%)
+• Soybeans: 100 samples (20.0%)
+• Cotton: 100 samples (20.0%)
+
+AVERAGE VALUES:
+• Soil pH: 6.47
+• Temperature: 23.7°C
+• Rainfall: 837mm
+• Humidity: 63%
+• Yield: 2.89 tons/ha
+• Market Demand: 80
+• Price: $2630/ton
+
+MODEL PERFORMANCE:
+• SVM: 0.9600 accuracy
+• Logistic Regression: 0.9400 accuracy
+• Random Forest: 0.9300 accuracy
+• LightGBM: 0.9300 accuracy
+• Naive Bayes: 0.9200 accuracy
+• XGBoost: 0.9100 accuracy
+• Neural Network: 0.9100 accuracy
+• KNN: 0.9000 accuracy
+• Gradient Boosting: 0.8900 accuracy
+
+BEST MODEL:
+• Model: LogisticRegression
+• Accuracy: Not available in evaluation results
+
+FEATURE IMPORTANCE (Top 5):
+
+RECOMMENDATIONS:
+• Use LogisticRegression for best accuracy
+• Focus on soil quality and climate suitability
+• Consider market demand for profitability
+• Monitor weather conditions for optimal yield
